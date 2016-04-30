@@ -1,0 +1,128 @@
+/*Default Classes*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: bold 14px Arial, sans-serif;
+}
+button {
+  -webkit-app-region: no-drag;
+	outline: none;
+	border: none;
+}
+.clear {
+	clear: both;
+}
+#calculator {
+	width: 350px;
+	height: auto;
+	background: white;
+}
+
+/*Topbar*/
+.topbar {
+	width: 350px;
+}
+.topbar-btn {
+	width: 20px;
+	height: 25px;
+	background: #0dc389;
+	float: left;
+	color: white;
+}
+.topbar-btn:hover {
+	background: #0aad79;
+	cursor: pointer;
+}
+.topbar-btn:active {
+	background: #0c9066;
+	cursor: pointer;
+}
+#topDrag {
+	height: 25px;
+	width:310px;
+	float: left;
+	background: #0dc389;
+}
+
+
+/*Top Screen*/
+.top .screen {
+	height: 130px;
+	width: 100%;
+	padding: 35px 25px;
+	background: #00EDA2;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	font-size: 38px;
+	color: white;
+	text-align: right;
+	letter-spacing: 1px;
+	font-weight: 200;
+}
+
+/*Keys*/
+.keys, .top {
+	overflow: hidden;
+}
+.keys span {
+	float: left;
+	position: relative;
+	top: 0;
+	cursor: pointer;
+	width: 87.5px;
+	padding: 30px;
+	background: white;
+	color: #A3A3A3;
+	text-align: center;
+	-webkit-user-select: none;
+	user-select: none;
+	transition: all 0.2s ease;
+}
+.keys span:hover {
+	background:  rgba(0, 162, 232, 0.1);
+}
+.keys span:active {
+	background:rgba(0, 162, 232, 0.2);
+}
+
+span.operator {
+	margin-right: 0;
+}
+
+/*Operators*/
+.keys span.operator {
+	background: rgba(0, 232, 159, 0.10);
+	margin-right: 0;
+}
+.keys span.operator:hover {
+	background: rgba(0, 232, 159, 0.20);
+	cursor: pointer;
+}
+.keys span.operator:active {
+	background: rgba(0, 232, 159, 0.3);
+	cursor: pointer;
+}
+
+
+/* Bottom eval*/
+.bottom {
+	width: 100%;
+	text-align: center;
+}
+.bottom .eval {
+	width: 100%;
+	padding: 10px;
+	display: block;
+	background:skyblue;
+	color: white;
+	font-size: 50px;
+	transition: all 0.5s ease;
+}
+.bottom .eval:hover {
+	background:#65b0d0;
+	cursor: pointer;
+}
+.bottom .eval:active {
+	background: #588fa4;
+	cursor: pointer;
+}

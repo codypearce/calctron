@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body >
+	<div class="topbar">
+		<button id="close-btn" class="topbar-btn" onClick=require('remote').getCurrentWindow().close()>X</button>
+		<button id="mini-btn" class="topbar-btn" onClick=require('remote').getCurrentWindow().minimize()>_</button>
+		<div id="topDrag"  style="-webkit-app-region: drag"> </div>
+		<div class="clear"></div>
+	</div>
+	<div id="calculator">
+		<div class="top">
+			<div class="screen"></div>
+		</div>
+		<div class="keys">
+			<span>7</span>
+			<span>8</span>
+			<span>9</span>
+			<span class="operator">+</span>
+			<span>4</span>
+			<span>5</span>
+			<span>6</span>
+			<span class="operator">-</span>
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			<span class="operator">/</span>
+			<span class="clearInput">C</span>
+			<span>0</span>
+			<span>.</span>
+			<span class="operator">*</span>
+		</div>
+		<div class="bottom">
+			<span class="eval">=</span>
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>

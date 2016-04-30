@@ -1,0 +1,11 @@
+{
+  "name": "calctron",
+  "version": "1.0.0",
+  "description": "A beautiful desktop calculator app built on Electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cody Pearce",
+  "license": "ISC"
+}
