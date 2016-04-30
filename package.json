@@ -6,8 +6,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "package": "asar pack calctron-win32-x64/resources/app calctron-win32-x64/resources/app.asar",
-    "build": "electron-packager . calctron && cp--ignore=node_modules --platform=linux --arch=x64 --version=0.37.8"
+    "package": "asar pack calctron-linux-x64/resources/app calctron-linux-x64/resources/app.asar",
+    "build": "electron-packager . calctron --ignore=node_modules --platform=linux --arch=x64 --version=0.37.8"
   },
   "author": "Cody Pearce",
   "license": "ISC",
