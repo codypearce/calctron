@@ -23,6 +23,7 @@ app.on('ready', function() {
 		'minWidth': 350,
 		'minHeight': 537,
 		// 'transparent': true,
+		'icon': __dirname + '/images/icon.png',
 		'frame': false,
 		'resizeable': false,
 		'titleBarStyle': 'hidden-inset',
