@@ -1,11 +1,18 @@
 {
   "name": "calctron",
+  "productName": "Calctron",
   "version": "1.0.0",
   "description": "A beautiful desktop calculator app built on Electron",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "package": "asar pack calctron-win32-x64/resources/app calctron-win32-x64/resources/app.asar",
+    "build": "electron-packager . calctron && cp--ignore=node_modules --platform=linux --arch=x64 --version=0.37.8"
   },
   "author": "Cody Pearce",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^7.0.1",
+    "asar": "^0.11.0"
+  }
 }
