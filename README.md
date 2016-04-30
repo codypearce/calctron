@@ -23,7 +23,7 @@ A beautiful desktop calculator app built on Electron
 
 ### Requirements
 
-* Node v4 +
+* Node v4+
 * Electron 
 
 Once those are installed simply
@@ -47,7 +47,7 @@ to build to other OS's look at the documentation for electron-packager
 
 ## Contribute
 
-Make a pull requests or fork to your heart's content.
+Make pull requests or fork to your heart's content.
 
 ## License
 
