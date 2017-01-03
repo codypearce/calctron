@@ -19,7 +19,7 @@ A beautiful desktop calculator app built on Electron
   * [ia32](https://github.com/CodyPearce/calctron/releases/download/v1.0.0/calctron-win32-ia32.zip)
   * [x64](https://github.com/CodyPearce/calctron/releases/download/v1.0.0/calctron-win32-x64.zip)
 
-All versions can be downloaded on the [release page](https://github.com/CodyPearce/calctron/releases/tag/v1.0.0)
+All versions can be downloaded on the [release page](https://github.com/codypearce/calctron/releases/tag/v1.0.0)
 ## Development
 
 ### Requirements
